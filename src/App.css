@@ -1,0 +1,105 @@
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  transition: width 0.3s;
+  background-color: #343a40;
+  color: white;
+  position: fixed;
+  height: 100vh;
+  overflow-x: hidden;
+  padding-top: 80px;
+  z-index: 2;
+ 
+  
+  padding-bottom: 20px;
+}
+
+.sidebar.closed {
+  width: 0;
+}
+
+.sidebar .close-btn {
+  position: absolute;
+  top: 20px;
+  right: -25px;
+  color: white;
+  font-size: 30px;
+  background: transparent;
+  border: none;
+}
+
+.sidebar .list-item {
+  color: white;
+ padding-left: 30px;
+}
+
+.sidebar .list-item:hover {
+  background-color: #555;
+  width: 100%;
+  
+}
+
+/* Main Content Area */
+.main-content {
+  flex: 1;
+  margin-left: 250px;
+  transition: margin-left 0.3s;
+  position: relative;
+}
+
+.main-content.closed {
+  margin-left: 0;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #343a40;
+  z-index: 3;
+}
+
+.navbar .container-fluid {
+  display: flex;
+  align-items: center;
+}
+
+.navbar h1 {
+  color: white;
+  font-size: 24px;
+  margin: 0;
+}
+
+.navbar .btn-menu {
+  background: transparent;
+  border: none;
+  margin-right: 15px;
+}
+
+.navbar .btn-menu i {
+  font-size: 24px;
+  color: white;
+}
+
+/* Search Bar */
+.search-bar {
+  max-width: 400px;
+}
+
+.search-bar input {
+  margin-right: 10px;
+}
+
+/* Button and Link Styling */
+button, a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  background: transparent;
+  border: none;
+}
+
+/* Container Adjustment */
+.container {
+  margin-top: 80px; /* To account for the fixed navbar height */
+}
