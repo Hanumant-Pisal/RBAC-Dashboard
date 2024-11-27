@@ -26,6 +26,12 @@ The dashboard provides a set of interactive charts and cards to display key metr
 
 Follow these steps to set up and run the project locally:
 
+![RBAC1](https://github.com/user-attachments/assets/9a5265a5-bcfb-4e6b-a498-7e2c2132b9c0)
+![RBAC2](https://github.com/user-attachments/assets/5f7eaa80-15ec-4e37-aaaf-cbae7adc0ffa)
+![RBAC3](https://github.com/user-attachments/assets/99649bbf-d2eb-46fb-93d2-1ed0880229c1)
+![RBAC-4](https://github.com/user-attachments/assets/16e5734c-ca9c-4dae-8fea-e2f82ae496d6)
+![RBAC5](https://github.com/user-attachments/assets/f7df46d4-c9c2-43d5-abae-d079db63f61f)
+
 ### 1. Clone the Repository
 
 ```bash
